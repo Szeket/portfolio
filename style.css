@@ -7,6 +7,7 @@
 body {
   margin: 100px auto 48px auto;
   max-width: full;
+  font-family: "Azeret Mono", monospace;
 }
 
 h1,

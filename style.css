@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ababf5;
+  --primary-color: #fcc0ca;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -126,5 +126,14 @@ p {
 .low {
   padding: 40px;
   max-width: 60%;
-  box-shadow: 0 0 10px 10px gray;
+  box-shadow: 0 0 10px 10px #f5d5da;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding-top: 25px;
+}
+a {
+  color: #fcc0ca;
+  text-decoration: none;
 }

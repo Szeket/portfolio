@@ -99,7 +99,7 @@ p {
   color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 46px;
     margin-bottom: 30px;

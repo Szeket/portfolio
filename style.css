@@ -99,9 +99,22 @@ p {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 46px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .col-sm-3 {
+    justify-content: space-evenly;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
     margin-bottom: 30px;
   }
   p {
@@ -116,6 +129,10 @@ p {
   .primary-link {
     display: block;
     text-align: center;
+  }
+  .col-sm-3 {
+    justify-content: space-evenly;
+    font-size: 10px;
   }
 }
 

@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fcc0ca;
+  --primary-color: #d0dfd2;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -18,21 +18,25 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 86px;
+  font-weight: 300;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
+  font-weight: 200;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   opacity: 0.7;
+  font-weight: 200;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-weight: 100;
 }
 
 .navigation-links {
@@ -89,14 +93,16 @@ p {
   text-decoration: underline;
 }
 .primary-link {
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 10px 10px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  display: block;
+  text-align: center;
 }
 
 @media (max-width: 800px) {
@@ -143,7 +149,7 @@ p {
 .low {
   padding: 40px;
   max-width: 60%;
-  box-shadow: 0 0 10px 10px #f5d5da;
+  box-shadow: var(--box-shadow);
   border-radius: 10px;
 }
 footer {
@@ -151,6 +157,6 @@ footer {
   padding-top: 25px;
 }
 a {
-  color: #fcc0ca;
+  color: #d0dfd2;
   text-decoration: none;
 }
